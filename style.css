@@ -1,0 +1,114 @@
+*{
+    color:rgb(28, 28, 190);
+    font-size: 20;
+    /* border:2px solid powderblue;  */
+    margin: 0px;
+    padding:0px;
+    
+}
+
+#special{
+    color:green;
+    background-color: aqua;
+}
+#jojo
+{
+    color:blueviolet;
+    background-color: aqua;
+}
+body{
+    background-color:white;
+    /* background-image:url(https://images.unsplash.com/photo-1657299156537-2fd96dc2446e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80); */
+    background-image:url(card.jpg); 
+    background-repeat:repeat-y;
+    background-size:cover;
+    background-attachment:scroll;
+}
+
+.container{
+    height:250px;
+    width:300px;
+    /* color:rgba(633, 23, 1032, 4); */
+    color:white;
+    background-color:gold;
+    border:2px solid red;
+    /* background-position:top center; */
+    background-image:url(https://images.unsplash.com/photo-1657299156537-2fd96dc2446e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    background-repeat: no-repeat;
+
+    background-size:cover;
+    background-attachment:scroll;
+
+    /* background-attachment:scroll;  --another use-- */
+
+
+    /* background:no-repeat scroll right url(https://images.unsplash.com/photo-1657299156537-2fd96dc2446e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80); */
+
+    /* above one line of code can be used for bacground::) */
+    
+}
+input[type="text"]{
+    background-color: yellow;
+    height:200px;
+}
+.text p{
+    color:grey;
+    background-color: purple;
+    border-width: 10;
+    border-color: white;
+    border-style: dashed;
+    border-top-color:blue;
+
+}
+.free p ~ div>article>p{ 
+    color:green;
+    background-color: grey;
+}
+.a div+p{
+    color:blue;
+    background-color:brown;
+}
+.box{
+    display:flex;
+    border:2px solid black;
+    height:150px;
+    width:150px;
+
+}
+.cant .box ~.box{
+    background-color: red;
+}
+.box:hover{
+    background-color: aquamarine;
+}
+li:nth-of-type(2n+3)
+{
+    color:chocolate;
+}
+@page:right{
+    margin:2in 3in;
+}
+/* pseudo classes
+pseudo elements */
+div{
+    height:150px;
+    width:150px;
+    border:2px solid black;
+    margin-top: 20px auto;
+}
+div:nth-of-type(1)
+{
+    background-color:#203422;
+}
+div:nth-of-type(2)
+{
+    background-color: rgb(red, 211, 255);
+}
+div:nth-of-type(3)
+{
+    background-color: rgba(633, 23, 103,1);
+}
+div:nth-last-of-type(4)
+{
+    background-color: hsl(234, 20%, 85%);
+}
